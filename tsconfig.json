@@ -1,0 +1,31 @@
+{
+	"compilerOptions": {
+		/* Projects */
+		"tsBuildInfoFile": "./.ts.buildinfo",
+
+		/* Language and Environment */
+		"target": "es2016",
+
+		/* Modules */
+		"module": "commonjs",
+
+		/* JavaScript Support */
+		"allowJs": false,
+		"checkJs": false,
+
+		/* Emit */
+		"outDir": "./js",
+
+		/* Interop Constraints */
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+
+		/* Type Checking */
+		"strict": true,
+
+		/* Completeness */
+		"skipLibCheck": true
+	},
+
+	"exclude": ["./node_modules", "tests"]
+}
