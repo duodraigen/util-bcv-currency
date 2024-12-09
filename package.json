@@ -1,12 +1,17 @@
 {
 	"name": "util-bcv-currency",
 	"author": "duodraigen",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "index.ts",
 	"license": "MIT",
 	"type": "module",
 	"description": "Utility to get currency values in bolivars",
-	"keywords": ["currency", "web", "utility", "usd"],
+	"keywords": [
+		"currency",
+		"web",
+		"utility",
+		"usd"
+	],
 	"repository": "https://github.com/duodraigen/util-bcv-currency",
 	"scripts": {
 		"test": "jest",
