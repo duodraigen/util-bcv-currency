@@ -56,3 +56,6 @@ console.log(yenPrice)
 const BBVAUSD = getBankUsdCurrencyPrices(SupportedBanks.bbva).then((curval) => curval)
 console.log(BBVAUSD)
 ```
+
+## Running tests
+See [Tests Readme](tests/README.md) to get information about running and writing tests

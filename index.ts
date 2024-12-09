@@ -1,5 +1,5 @@
 /**
- * @author Duodraigen
+ * @author duodraigen
  * node-version 22.11.0
  * version 1.0.0
  */
