@@ -10,6 +10,11 @@ The scrapping method is done using [Cheerio](https://cheerio.js.org/) and the ht
 
 - **Getting bank usd buy/sell values**: BCV page has a table with the bank list and each buy/sell values for usd, so, basically the only thing to do is getting the `<tbody>` tag of the table and iterate per row. **NOTE**: this method only supports the actual prices, not the past ones
 
+## Install
+```bash
+npm install util-bcv-currency
+```
+
 ## Usage
 **To get a currency value from currencies table**
 ```typescript 
