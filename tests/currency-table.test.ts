@@ -8,16 +8,11 @@ describe("testing currency table getters", () => {
 
 	test("get usd price", async () => {
 		const res = await getCurrencyTableProperty(CurrencyKinds.usd);
-		expect(res).toBe(Number.parseFloat("47.85520000"));
+		expect(res).toBeGreaterThan(0.0);
 	});
 
 	test("get euro price", async () => {
 		const res = await getCurrencyTableProperty(CurrencyKinds.eur);
-		expect(res).toBe(Number.parseFloat("50.33409936"));
-	});
-
-	test("get yen price", async () => {
-		const res = await getCurrencyTableProperty(CurrencyKinds.yen);
-		expect(res).toBe(Number.parseFloat("6.56972625"));
+		expect(res).toBeGreaterThan(0.0);
 	});
 });

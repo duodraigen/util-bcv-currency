@@ -13,7 +13,3 @@ Tests will be continuously added for each new currency getter method. Workflow m
 - get the value of \<currency\> from \<the-source\>
 
 5. Run the test with `yarn run test`
-
-**NOTE**: Expected test results will be susceptible to changes due the constant currency value changes.
-
-If you want to re run the tests, please read this and make sure the currency values are properly updated and fixed (replace the "," character for the "." one)
