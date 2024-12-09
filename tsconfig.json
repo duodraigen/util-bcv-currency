@@ -1,31 +1,37 @@
 {
-	"compilerOptions": {
-		/* Projects */
-		"tsBuildInfoFile": "./.ts.buildinfo",
+  "compilerOptions": {
+    /* Projects */
+    "tsBuildInfoFile": "./.ts.buildinfo",
 
-		/* Language and Environment */
-		"target": "es2016",
+    /* Language and Environment */
+    "target": "es2016",
 
-		/* Modules */
-		"module": "commonjs",
+    /* Modules */
+    "module": "commonjs",
 
-		/* JavaScript Support */
-		"allowJs": false,
-		"checkJs": false,
+    /* JavaScript Support */
+    "allowJs": false,
+    "checkJs": false,
 
-		/* Emit */
-		"outDir": "./js",
+    /* Emit */
+    "outDir": "./js",
 
-		/* Interop Constraints */
-		"esModuleInterop": true,
-		"forceConsistentCasingInFileNames": true,
+    /* Interop Constraints */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
 
-		/* Type Checking */
-		"strict": true,
+    /* Type Checking */
+    "strict": true,
 
-		/* Completeness */
-		"skipLibCheck": true
-	},
+    /* Completeness */
+    "skipLibCheck": true,
 
-	"exclude": ["./node_modules", "tests"]
+    "baseUrl": ".",
+    "paths": {
+      "@": ["."],
+      "@/*": ["./*"]
+    }
+  },
+
+  "exclude": ["./node_modules", "tests"]
 }
